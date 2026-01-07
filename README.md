@@ -1,9 +1,10 @@
 # llm-accuracy-frameworks
 Frameworks for testing LLM accuracy
 
-### Prerequisites
-Required Software
-
+## Prerequisites
+### System requirements
+- Linux
+- Bash shell
 Python >=3.10
 
 Git (latest version)
