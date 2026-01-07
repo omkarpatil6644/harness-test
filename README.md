@@ -1,14 +1,14 @@
-## llm-accuracy-frameworks
+# llm-accuracy-frameworks
 Frameworks for testing LLM accuracy
 
-# Prerequisites
-Required Software
+### Prerequisites
+##Required Software
 
-·	Python >=3.10
+Python >=3.10
 
-·	Git (latest version)
+Git (latest version)
 
-·	pip (Python package installer)
+pip (Python package installer)
 
 Installation
 Step 1: Create Virtual Environment (Highly Recommended)
