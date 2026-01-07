@@ -7,7 +7,7 @@ Required Software
 ·	Git (latest version)
 ·	pip (Python package installer)
 
- Installation
+Installation
 Step 1: Create Virtual Environment (Highly Recommended)
 Step 2: Download Setup Script
 Clone this repository
