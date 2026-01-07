@@ -5,7 +5,9 @@ Prerequisites
 Required Software
 
 ·	Python >=3.10
+
 ·	Git (latest version)
+
 ·	pip (Python package installer)
 
 Installation
