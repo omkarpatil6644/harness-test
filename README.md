@@ -17,12 +17,16 @@ Step 2: Download Setup Script
 Clone this repository
 git clone https://github.com/AGL-Innominds-Libraries-and-Tools/llm-accuracy-frameworks.git
 
+Step 3: Change directory
+
 cd your-repo-directory
 
-Step 3: Make Script Executable
+Step 4: Make Script Executable
+
 chmod +x setup_lm_eval.sh
 
-Step 4: Run Setup Script (One-Time Process)
+Step 5: Run Setup Script (One-Time Process)
+
 ./setup_lm_eval.sh
 
 ### Usage
