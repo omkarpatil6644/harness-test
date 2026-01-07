@@ -5,11 +5,9 @@ Frameworks for testing LLM accuracy
 ### System requirements
 - Linux
 - Bash shell
-Python >=3.10
-
-Git (latest version)
-
-pip (Python package installer)
+- Python >=3.10
+- Git (latest version)
+- pip (Python package installer)
 
 ### Installation
 Step 1: Create Virtual Environment (Highly Recommended)
@@ -52,7 +50,12 @@ lm_eval --model hf \
     --output_path <json_output_path>
 
 ### Available Tasks
-leaderboard_bbh, leaderboard_gpqa, leaderboard_ifeval, leaderboard_math_hard, leaderboard_mmlu_pro, leaderboard_musr
+- leaderboard_bbh
+- leaderboard_gpqa
+- leaderboard_ifeval
+- leaderboard_math_hard
+- leaderboard_mmlu_pro
+- leaderboard_musr
 
 ### Score Normalization
 After running evaluations, normalize scores using scores_normalization.ipynb
