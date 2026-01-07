@@ -2,15 +2,13 @@
 Frameworks for testing LLM accuracy
 
 ### Prerequisites
-##Required Software
+Required Software
 
 Python >=3.10
-
 Git (latest version)
-
 pip (Python package installer)
 
-Installation
+### Installation
 Step 1: Create Virtual Environment (Highly Recommended)
 Step 2: Download Setup Script
 Clone this repository
@@ -21,10 +19,10 @@ chmod +x setup_lm_eval.sh
 Step 4: Run Setup Script (One-Time Process)
 ./setup_lm_eval.sh
 
- Usage
+### Usage
 Running Evaluations
 Basic evaluation command structure:
-#instruct models
+#### instruct models
 lm_eval --model hf \
     --model_args pretrained=<model_name> \
     --tasks <task_name> \
@@ -33,19 +31,20 @@ lm_eval --model hf \
     --batch_size auto \
     --output_path <json_output_path>
 
-#non-instruct models
+#### non-instruct models
 lm_eval --model hf \
     --model_args pretrained=<model_name> \
     --tasks <task_name> \
     --batch_size auto \
     --output_path <json_output_path>
 
-Available Tasks
+### Available Tasks
 ·	leaderboard_bbh
 ·	leaderboard_gpqa
 ·	leaderboard_ifeval
 ·	leaderboard_math_hard
 ·	leaderboard_mmlu_pro
 ·	leaderboard_musr
-Score Normalization
+
+### Score Normalization
 After running evaluations, normalize scores using scores_normalization.ipynb
