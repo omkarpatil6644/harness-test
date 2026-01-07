@@ -14,7 +14,9 @@ pip (Python package installer)
 Step 1: Create Virtual Environment (Highly Recommended)
 
 Step 2: Download Setup Script
+
 Clone this repository
+
 git clone https://github.com/AGL-Innominds-Libraries-and-Tools/llm-accuracy-frameworks.git
 
 Step 3: Change directory
