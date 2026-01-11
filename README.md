@@ -65,9 +65,7 @@ python run_eval.py <leaderboard_task> <path_to_store_results> --config <custom_m
 
 ### Results Directory Structure
 results/
-
 ├── model_name/
-
 │   ├── raw_results/
 
 │   │   ├── *.json
