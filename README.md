@@ -55,8 +55,10 @@ python evaluate/run_eval.py <leaderboard_task> <path_to_store_results>
 python evaluate/run_eval.py <leaderboard_task> <path_to_store_results> --config <custom_models.yaml_path>
 ```
 
-Note: Some HuggingFace models require executing custom repository code that expects `trust_remote_code=True`.
-If you encounter this error: Please pass the argument `trust_remote_code` to allow custom code to be run. Please use the below command with additional argument --trust-remote-code
+Note:
+- Results folder will be automatically created at this path `<path_to_store_results>` so don't manually create one.
+- Some HuggingFace models require executing custom repository code that expects `trust_remote_code=True`.
+If you encounter this error: Please pass the argument `trust_remote_code` to allow custom code to be run. Please use the below command with additional argument --trust-remote-code.
 ```bash
 python evaluate/run_eval.py <leaderboard_task> <path_to_store_results> --trust-remote-code
 ```
