@@ -61,7 +61,7 @@ python run_eval.py <leaderboard_task> <path_to_store_results> --config <custom_m
 - leaderboard_math_hard
 - leaderboard_mmlu_pro
 - leaderboard_musr
-- leaderboard(runs all tasks listed above, but not recommended(takes lot of time))
+- leaderboard (Runs all available tasks. Note: Not recommended for single runs as it is time-consuming.)
 
 ### Results Directory Structure
 ```text
