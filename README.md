@@ -31,12 +31,12 @@ cd your-repo-directory
 
 ### Step 3: Make Script Executable
 ```bash
-chmod +x setup_lm_eval.sh
+chmod +x setup/lm_eval_harness_setup.sh
 ```
 
 ### Step 4: Run Setup Script (One-Time Process)
 ```bash
-./setup_lm_eval.sh
+setup/lm_eval_harness_setup.sh
 ```
 
 ### Usage
@@ -47,12 +47,12 @@ Uncomment the models you wish to evaluate in models.yaml before running the comm
 
 ### Option 1: Below command uses default models.yaml
 ```bash
-python run_eval.py <leaderboard_task> <path_to_store_results>
+python evaluate/run_eval.py <leaderboard_task> <path_to_store_results>
 ```
 
 ### Option 2: Custom path to models.yaml.
 ```bash
-python run_eval.py <leaderboard_task> <path_to_store_results> --config <custom_models.yaml_path>
+python evaluate/run_eval.py <leaderboard_task> <path_to_store_results> --config <custom_models.yaml_path>
 ```
 ### Available Tasks
 - leaderboard_bbh
