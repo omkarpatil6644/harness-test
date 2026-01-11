@@ -64,14 +64,11 @@ python run_eval.py <leaderboard_task> <path_to_store_results> --config <custom_m
 - leaderboard(runs all tasks listed above, but not recommended(takes lot of time))
 
 ### Results Directory Structure
+```text
 results/
 ├── model_name/
 │   ├── raw_results/
-
 │   │   ├── *.json
-
 │   ├── normalized_results/
-
 │   │   ├── *.json
-
 |__ aggregated_results.csv
