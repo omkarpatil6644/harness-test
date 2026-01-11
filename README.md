@@ -13,8 +13,8 @@ Before starting, ensure the following are installed:
 - Python >=3.10
 - Git
 - CUDA-compatible GPU (recommended for large models)
-- `pip` and `venv`
-- Linux
+- `pip`
+- OS - Linux
 - Bash shell
 
 ---
@@ -65,9 +65,15 @@ python run_eval.py <leaderboard_task> <path_to_store_results> --config <custom_m
 
 ### Results Directory Structure
 results/
+
 ├── model_name/
+
 │   ├── raw_results/
+
 │   │   ├── *.json
+
 │   ├── normalized_results/
+
 │   │   ├── *.json
+
 |__ aggregated_results.csv
