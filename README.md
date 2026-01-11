@@ -59,3 +59,31 @@ lm_eval --model hf \
 
 ### Score Normalization
 After running evaluations, normalize scores using scores_normalization.ipynb
+
+
+
+# LLM Accuracy Frameworks
+
+This repository provides scripts and utilities to automate the evaluation of large language models (LLMs) using **lm-evaluation-harness**.  
+It supports evaluating both **base** and **instruct** models and aggregating results across multiple benchmarks.
+
+---
+
+## Prerequisites
+
+Before starting, ensure the following are installed:
+
+- Python 3.9+
+- Git
+- CUDA-compatible GPU (recommended for large models)
+- `pip` and `venv`
+
+---
+
+## Installation
+
+### Step 1: Create Virtual Environment (Highly Recommended)
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
